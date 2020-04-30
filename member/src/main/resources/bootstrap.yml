@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: tuling-member
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.24.140:8847
+        namespace: 3ab89818-480a-4618-aaa2-438ca1f475eb
+        encode: utf-8
+        group: DEFAULT_GROUP
+        file-extension: yml
