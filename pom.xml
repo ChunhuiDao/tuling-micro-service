@@ -9,8 +9,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>member</module>
         <module>common</module>
+        <module>member</module>
+        <module>springcode</module>
     </modules>
 
     <dependencies>
