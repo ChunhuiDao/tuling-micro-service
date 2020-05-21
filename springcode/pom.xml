@@ -52,10 +52,14 @@
     </dependencies>
 
     <build>
+        <finalName>tuling-springcode</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.dch.springcode.SpringcodeApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -1,4 +1,4 @@
-package com.example.springcode;
+package com.dch.springcode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
