@@ -1,4 +1,4 @@
-package com.dch.member;
+package com.dch.member.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ConfigurableApplicationContext;
