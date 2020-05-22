@@ -1,1 +1,12 @@
+server:
+  port: 8011
 
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.31.124:3306/test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123321Dch@
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
