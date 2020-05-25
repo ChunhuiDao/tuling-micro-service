@@ -8,5 +8,5 @@ import org.springframework.context.annotation.ImportResource;
 @Configuration
 @ImportResource("classpath:myBeans.xml")
 @Import({People.class, BeanImportSelector.class, MyBeanDefinitionRegister.class})
-public class config {
+public class Config {
 }
